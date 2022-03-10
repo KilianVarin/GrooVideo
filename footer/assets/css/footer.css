@@ -1,0 +1,43 @@
+
+
+/******************************/
+/*     Back To Top Button     */
+/******************************/
+#myBtn {
+	position: fixed; 
+  	z-index: 99; 
+	bottom: 20px; 
+	right: 20px; 
+	display: none; 
+	width: 52px;
+	height: 52px;
+	border: none; 
+	border-radius: 50%; 
+	outline: none; 
+	background-color: #323137; 
+	cursor: pointer; 
+}
+
+#myBtn:hover {
+	background-color: #0f0f11;
+}
+
+#myBtn img {
+	margin-bottom: 0.25rem;
+	margin-left: 0.125rem;
+	width: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #33cccc!important;
+}
+
+.footer:hover{
+	background-color: transparent;
+	background-color: #ff9900;
+	border: 1px solid #ff9900;
+	 /* needs to stay here because of the color property of a tag */
+	text-decoration: none;
+}
+
